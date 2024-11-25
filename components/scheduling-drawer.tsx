@@ -22,7 +22,7 @@ export function SchedDrawer({ open, onOpenChange }: SchedDrawerProps) {
   return (
     <Drawer open={open} onOpenChange={onOpenChange}> {/* Use props here */}
       <DrawerTrigger asChild>
-        <Button>Book a Meeting</Button>
+        {/* <Button>Book a Meeting</Button> */}
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
