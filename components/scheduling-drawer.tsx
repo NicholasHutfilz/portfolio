@@ -13,8 +13,12 @@ import {
   DrawerTrigger, // Add this import
 } from "@/components/ui/drawer"
 
-// Accept open and onOpenChange as props
-export function SchedDrawer({ open, onOpenChange }) {
+interface SchedDrawerProps {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export function SchedDrawer({ open, onOpenChange }: SchedDrawerProps) {
   return (
     <Drawer open={open} onOpenChange={onOpenChange}> {/* Use props here */}
       <DrawerTrigger asChild>

@@ -25,6 +25,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+import Image from 'next/image';
 
 export function MusicDisplay() {
   const [isOpen1, setIsOpen1] = useState(false)
@@ -37,7 +38,7 @@ export function MusicDisplay() {
       <div className="grid gap-2">
         <div className="flex items-center gap-2">
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/AllenStevenson.webp"
               alt="Song Cover"
               width={40}
@@ -96,7 +97,7 @@ export function MusicDisplay() {
         </div>
         <div className="flex items-center gap-2">
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/music/WQXR.png"
               alt="Song Cover"
               width={40}
@@ -148,7 +149,7 @@ export function MusicDisplay() {
         </div>
         <div className="flex items-center gap-2">
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/music/FlightoftheMango.png"
               alt="Song Cover"
               width={40}
@@ -207,7 +208,7 @@ export function MusicDisplay() {
         </div>
         <div className="flex items-center gap-2">
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/music/MountainEchoes.webp"
               alt="Mountain Echoes Cover"
               width={40}
