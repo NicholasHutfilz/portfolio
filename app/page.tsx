@@ -230,7 +230,7 @@ export default function Home() {
       </h2>
       <MusicDisplay></MusicDisplay>
       <MusicStats></MusicStats>
-      <SchedDrawer open={drawerOpen} onOpenChange={setDrawerOpen} />
+      {/* <SchedDrawer open={drawerOpen} onOpenChange={setDrawerOpen} /> */}
       <div className="mb-20 mt-20"></div>
       </main>
     </div>
