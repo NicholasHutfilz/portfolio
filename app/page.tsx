@@ -249,11 +249,11 @@ export default function Home() {
             <LinkedInLogoIcon className="mr-2 h-4 w-4" />
             <span>LinkedIn</span>
           </CommandItem>
-          <CommandItem onSelect={() => { setDrawerOpen(true); setOpen(false); }}>
+{/*           <CommandItem onSelect={() => { setDrawerOpen(true); setOpen(false); }}>
             <CalendarIcon className="mr-2 h-4 w-4" />
             <span>Schedule a Meeting</span>
-          </CommandItem>
-          <CommandItem onSelect={() => window.open("mailto:example@example.com")}>
+          </CommandItem> */}
+          <CommandItem onSelect={() => window.open("mailto:nhutfilz@gmail.com")}>
             <Mail className="mr-2 h-4 w-4" />
             <span>Send me an Email</span>
           </CommandItem>
