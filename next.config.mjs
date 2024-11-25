@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = {
-    output: 'standalone',
-  }
+const nextConfig = {
+  output: 'export',
+  basePath: '/hutfilzportfolio',
+  images: {
+    unoptimized: true,
+  },
+};
 
 export default nextConfig;
